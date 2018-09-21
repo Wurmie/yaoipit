@@ -1,0 +1,44 @@
+body,html {
+	margin:0px;
+	padding:0px;
+}
+ul.parent {
+	position:relative;
+	left:-50%;
+	margin:0;
+	padding:0;
+	border:0;
+	list-style-type: none;
+}
+div.image1 {
+	float:left;
+	height:auto;
+}
+img.imageHome{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+div.navi {
+    list-style-type: none;
+	position:absolute;
+	display:flex;
+	float:left;
+}
+div.dropdown {
+    position: relative;
+}
+
+div.dropdown-content {
+	background-color:white;
+	width:100%;
+	height:auto%;
+	margin-top:-1.9%;
+    display: none;
+	border:0px;
+    position: absolute;
+}
+
+div.dropdown:hover .dropdown-content {
+    display: block;
+}

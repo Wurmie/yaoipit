@@ -1,0 +1,35 @@
+body,html {
+	margin:0px;
+	padding:0px;
+	
+}
+.background1{
+	background-image: url(Images/Background5.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+div.box {
+	position: relative;
+	margin:0;
+	padding:0;
+	height:auto;
+	width:52%;
+	left:50%;
+	min-width:999px;
+}
+div.innerBox {
+	background-color: #555555;
+	min-height: 1000px;
+	height: auto;
+	width: 100%;
+	position:absolute;
+	left:-50%;
+	margin:0;
+	padding:0;
+	border:0;
+	list-style-type: none;
+	z-index:-1;
+}
